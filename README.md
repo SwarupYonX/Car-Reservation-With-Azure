@@ -2,7 +2,6 @@
  
 *- This repository contains sample project where different Azure cloud services were used*
 
-![CarsIsland0.jpg](images/CarsIsland0.jpg)
 
 Car-Reservation is a fake car rental company which used Microsoft Azure cloud services to implement the system for managing car renting.
 
@@ -53,7 +52,7 @@ Car-Reservation is a fake car rental company which used Microsoft Azure cloud se
 Below diagram presents Cars Island Car Rental system architecture. 
 
 <p align="center">
-<img src="Images/CRWA-6.png?raw=true" alt="Image not found"/>
+<img src="Images/CRWA-6.jpg?raw=true" alt="Image not found"/>
 </p>
 
 ## Azure Active Directory B2C
