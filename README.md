@@ -2,16 +2,10 @@
  
 *- This repository contains sample project where different Azure cloud services were used*
 
-*- Some of the concepts were simplified to make it possible to deliver complete solution*
-
-*- On my [tech blog](https://daniel-krzyczkowski.github.io/Cars-Island-Car-Rental-On-Azure-Cloud/) there is a series of articles where I described implementation details*
-
 ![CarsIsland0.jpg](images/CarsIsland0.jpg)
 
-Cars Island is a fake car rental company which used Microsoft Azure cloud services to implement the system for managing car renting.
+Car-Reservation is a fake car rental company which used Microsoft Azure cloud services to implement the system for managing car renting.
 
-*If you like this content, please give it a star!*
-![github-start.png](images/github-start2.png)
 
 ## Use cases are following:
 
@@ -24,38 +18,31 @@ Cars Island is a fake car rental company which used Microsoft Azure cloud servic
 ### Here are the screenhots of the web app together with the confirmation email template:
 
 <p align="center">
-<img src="images/CarsIsland1.PNG?raw=true" alt="Image not found"/>
+<img src="Images/CRWA-1.png?raw=true" alt="Image not found"/>
 </p>
 
 <p align="center">
-<img src="images/CarsIsland2.PNG?raw=true" alt="Image not found"/>
+<img src="Images/CRWA-2.png?raw=true" alt="Image not found"/>
 </p>
 
 <p align="center">
-<img src="images/CarsIsland3.PNG?raw=true" alt="Image not found"/>
+<img src="Images/CRWA-3.png?raw=true" alt="Image not found"/>
 </p>
 
 <p align="center">
-<img src="images/CarsIsland4.PNG?raw=true" alt="Image not found"/>
+<img src="Images/CRWA-4.png?raw=true" alt="Image not found"/>
 </p>
 
 <p align="center">
-<img src="images/CarsIsland5.PNG?raw=true" alt="Image not found"/>
+<img src="Images/CRWA-5.png?raw=true" alt="Image not found"/>
 </p>
 
-<p align="center">
-<img src="images/CarsIsland6.PNG?raw=true" alt="Image not found"/>
-</p>
-
-<p align="center">
-<img src="images/CarsIsland8.PNG?raw=true" alt="Image not found"/>
-</p>
 
 ### There is also Open API definition available for the Cars Island Web API:
 
 
 <p align="center">
-<img src="images/CarsIsland7.PNG?raw=true" alt="Image not found"/>
+<img src="Images/CRWA-7.png?raw=true" alt="Image not found"/>
 </p>
 
 
@@ -66,7 +53,7 @@ Cars Island is a fake car rental company which used Microsoft Azure cloud servic
 Below diagram presents Cars Island Car Rental system architecture. 
 
 <p align="center">
-<img src="images/CarsIsland9.png?raw=true" alt="Image not found"/>
+<img src="Images/CRWA-6.png?raw=true" alt="Image not found"/>
 </p>
 
 ## Azure Active Directory B2C
@@ -119,18 +106,10 @@ Azure Storage Account is one of the oldest services available in the Azure cloud
 Azure API Management is a service that works as a gateway to different APIs behind it. With Azure API Management you can secure your APIs. It provides a different kind of policies so for instance we can implement throttling or validate tokens. In the Cars Island solution, it was used to protect access to Cars Island API.
 
 
-## Technology used to develop Web API, Mail Sender App and Web portal
-
-### Cars Island web application was developed with Blazor Server. (.NET 5.0)
-
-### Cars Island Web API was developed with ASP .NET Core (.NET 5.0)
-
-### Cars Island Mail Sender Function App was developed with .NET Core (3.1)
-
 
 # Repository structure
 
-In the *src* folder there are five sub-folders:
+There are five folders:
 
 1. *[ad-b2c-custom-policies](https://github.com/Daniel-Krzyczkowski/Cars-Island-On-Azure/tree/master/src/ad-b2c-custom-policies)* - this one contains Azure AD B2C custom policies files together with branding files
 2. *[arm-templates](https://github.com/Daniel-Krzyczkowski/Cars-Island-On-Azure/tree/master/src/arm-templates)* - this one contains Azure Resource Manager templates to create all required Azure services
