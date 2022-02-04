@@ -77,7 +77,7 @@ Hosting web applications in the Azure cloud is much easier with Azure Web Apps. 
 
 ## Azure Function Apps
 
-Azure Function Apps are serverless services available in the Azure cloud. They are ideal to be used as event handlers for processing events. It is important to mention the cost - you only pay for this service once it is executed. Up to 1 million executions is for free. In the Cars Reservation solution, Azure Function App was used to handle events related to sending car's reservation confirmation emails once custom complete reservation in the web portal. This Function App is triggered once there is a new message in the Azure Service Bus queue.
+Azure Function Apps are serverless services available in the Azure cloud. They are ideal to be used as event handlers for processing events. It is important to mention the cost - you only pay for this service once it is executed. Up to 1 million executions is for free. In the Cars Reservation solution, Azure Function App was used to handle events related to sending car's reservation confirmation emails once customer complete reservation in the web portal. This Function App is triggered once there is a new message in the Azure Service Bus queue.
 
 
 ## Azure Service Bus
