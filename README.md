@@ -117,3 +117,7 @@ There are five folders:
 5. *[web-app](https://github.com/Daniel-Krzyczkowski/Cars-Island-On-Azure/tree/master/src/web-app)* - this one contains Blazor Web App project
 6. *[send-grid-mail-template](https://github.com/Daniel-Krzyczkowski/Cars-Island-On-Azure/tree/master/src/send-grid-mail-template)* - this one contains SendGrid email template for car reservation confirmation
 
+<p align="center">
+<img src="Images/Web capture_29-12-2021_7552_portal.azure.com.jpeg" alt="Image not found"/>
+</p>
+
